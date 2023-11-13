@@ -42,8 +42,11 @@ SELECT city.name FROM city JOIN country ON city.countrycode = country.code WHERE
 Clue 7
 
 ```
-SELECT city.name, city.countrycode, city.district FROM city JOIN country ON city.countrycode = country.code WHERE city.population = 91084; -- Santa Monica, CA, USA
+SELECT city.name, city.countrycode, city.district FROM city JOIN country ON city.countrycode = country.code WHERE city.population = 91084; 
 ```
 
+
+Clue 8 - Final Answer -
+### Santa Monica, CA, USA
 
 
